@@ -1,0 +1,32 @@
+{
+  "name": "hms.js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlanZCode/hms.js.git"
+  },
+  "keywords": [
+    "hms",
+    "hms.js",
+    "hostmyservers",
+    "hostmyservers.js",
+    "api"
+  ],
+  "author": "FlanZCode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlanZCode/hms.js/issues"
+  },
+  "homepage": "https://github.com/FlanZCode/hms.js#readme",
+  "devDependencies": {
+    "tsup": "^8.3.4",
+    "typescript": "^5.6.3"
+  }
+}
