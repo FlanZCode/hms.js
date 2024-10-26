@@ -24,7 +24,7 @@ class HMSClient {
     getPostalCode: () => user.getUserPostalCode(this.apiKey),
     getCountry: () => user.getUserCountry(this.apiKey),
     getBusiness: () => user.getUserBusiness(this.apiKey),
-    getTypeBusiness: () => user.getUserTypeBusiness(this.apiKey),
+    getBusinessType: () => user.getUserBusinessType(this.apiKey),
     getBusinessSiret: () => user.getUserBusinessSiret(this.apiKey),
     getBusinessTva: () => user.getUserBusinessTva(this.apiKey),
     getLanguage: () => user.getUserLanguage(this.apiKey),

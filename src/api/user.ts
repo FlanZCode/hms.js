@@ -81,7 +81,7 @@ export const getUserBusiness = async (apiKey: string) => {
   return data.data.business;
 };
 
-export const getUserTypeBusiness = async (apiKey: string) => {
+export const getUserBusinessType = async (apiKey: string) => {
   const data = await getUserDetails(apiKey);
   return data.data.type_buisness;
 };
