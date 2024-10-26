@@ -1,9 +1,9 @@
-<div align="center">
+<div align="center" style="text-decoration: none;" target="_blank">
     <a href="https://hostmyservers.fr"><img src="logo.png" alt="HMS.js logo"></a>
 </div>
 <br>
 <div align="center">
-    <a href="https://www.npmjs.com/package/hostmyservers.js">
+    <a href="https://www.npmjs.com/package/hostmyservers.js" style="text-decoration: none;" target="_blank">
         <img src="https://img.shields.io/npm/dm/hostmyservers.js" alt="NPM Downloads">
         <img src="https://img.shields.io/npm/v/hostmyservers.js" alt="NPM Version">
         <img src="https://img.shields.io/npm/l/hostmyservers.js" alt="NPM License">
