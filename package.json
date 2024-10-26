@@ -1,12 +1,13 @@
 {
   "name": "hostmyservers.js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "📦 A modern module for HostMyServers API, streamlining interactions with users, products, and VPS.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup"
+    "build": "tsc",
+    "release": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,6 @@
   },
   "homepage": "https://github.com/FlanZCode/hostmyservers.js#readme",
   "devDependencies": {
-    "tsup": "^8.3.4",
     "typescript": "^5.6.3"
   }
 }

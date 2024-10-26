@@ -1,1 +1,1 @@
-export { default as hmsClient } from './client';
+export { default as HMSClient } from './client';

@@ -1,6 +1,6 @@
 import * as user from './api/user';
 import * as products from './api/products'
-class hmsClient {
+class HMSClient {
   private apiKey: string;
 
   constructor(apiKey: string) {
@@ -69,4 +69,4 @@ class hmsClient {
   }
 }
 
-export default hmsClient;
+export default HMSClient;
