@@ -1,7 +1,11 @@
-// /user/details
+// GET - /user/details
 export const getUserDetails = async (apiKey: string) => {
   const response = await fetch('https://www.hostmyservers.fr/api/user/details/', {
-    headers: { 'Authorization': `${apiKey}` }
+    method: 'GET',
+    headers: {
+      'Authorization': `${apiKey}`,
+      'Content-Type': 'application/json'
+    }
   });
   const data = await response.json();
   return data;
@@ -173,7 +177,11 @@ export const getUserDeletedAt = async (apiKey: string) => {
 };
 
 
-// /user/revoke
+// GET - /user/revoke
 export const revokeUserToken = (apiKey: string) => fetch('https://www.hostmyservers.fr/api/user/revoke/', {
-    headers: { 'Authorization': `${apiKey}` }
+  method: 'GET',
+  headers: {
+    'Authorization': `${apiKey}`,
+    'Content-Type': 'application/json'
+  }
 });
